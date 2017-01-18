@@ -1,0 +1,11 @@
+body {
+    background-color: lightblue;
+}
+
+
+#sportView, img {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    height: 200px;
+}
