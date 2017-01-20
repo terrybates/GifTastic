@@ -54,7 +54,7 @@ $(document).ready(function(){
       //var sport = $(this).attr("data-name");
       console.log(sport);
       //Constructing a queryURL using the sport.
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=dc6zaTOxFJmzC&limit=10";
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=dc6zaTOxFJmzC&limit=10";
       
       //Making the call
       //This code uses ajax with parameter url and call method get
